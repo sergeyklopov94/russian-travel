@@ -1,0 +1,17 @@
+.root__item {
+  box-sizing: border-box;
+  padding: 0 48px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 896px) {
+  .root__item {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .root__item {
+    padding: 0 16px;
+  }
+}
