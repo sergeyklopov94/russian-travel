@@ -1,0 +1,22 @@
+.root__content {
+  margin-top: 56px;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1152px) {
+  .root__content {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .root__content {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .root__content {
+    margin-bottom: 48px;
+  }
+}
