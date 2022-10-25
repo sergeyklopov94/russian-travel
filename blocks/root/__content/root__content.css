@@ -11,12 +11,14 @@
 
 @media screen and (max-width: 896px) {
   .root__content {
+    margin-top: 48px;
     margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 544px) {
   .root__content {
+    margin-top: 48px;
     margin-bottom: 48px;
   }
 }
