@@ -1,25 +1,7 @@
 .lead__image {
   max-width: 984px;
   width: 100%;
-  min-height: 615px;
+  min-height: 200px;
   margin: 0 0 8px;
   object-fit: cover;
-}
-
-@media screen and (max-width: 1152px) {
-  .lead__image {
-    min-height: 580px;
-  }
-}
-
-@media screen and (max-width: 896px) {
-  .lead__image {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 544px) {
-  .lead__image {
-    min-height: 200px;
-  }
 }

@@ -3,7 +3,13 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1152px) {
+@media screen and (max-width: 1180px) {
+  .content__intro {
+    padding: 0 98px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
   .content__intro {
     padding-left: 48px;
   }
@@ -17,7 +23,7 @@
 }
 
 @media screen and (max-width: 544px) {
-  .content__intro{
+  .content__intro {
     padding-left: 16px;
     padding-right: 16px;
   }
