@@ -4,26 +4,26 @@
   display: grid;
   grid-template-columns: 460px minmax(320px, auto);
   grid-template-rows: repeat(auto-fit, minmax(35px, auto));
-  grid-gap: 48px 40px;
+  gap: 48px 40px;
 }
 
 @media screen and (max-width: 1152px) {
   .place {
     grid-template-columns: 440px auto;
-    grid-gap: 48px 32px;
+    gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 896px) {
   .place {
     grid-template-columns: 340px auto;
-    grid-gap: 48px 28px;
+    gap: 48px 28px;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 720px) {
   .place {
     grid-template-columns: minmax(320px, auto);
-    grid-gap: 32px;
+    gap: 32px;
   }
 }
